@@ -26,11 +26,11 @@ The outcome of the project includes a web app where an emergency worker can inpu
 ### Results:
 Here is what the page looks like. The front page of the web app shows 2 visualization hightlight from the project.
 
-![](disaster-response-project1.png)
+![](Images%20for%20ReadMe/disaster-response-project1.png)
 
 You can type messages in the box on top and click "Classify Messages", the web app will return results of its classification.
 
-![](disaster-response-project2.png)
+![](Images%20for%20ReadMe/disaster-response-project2.png)
 
 ### Tech Stack:
 Tech stack will include:
