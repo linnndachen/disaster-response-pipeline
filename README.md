@@ -14,29 +14,20 @@
 
 ### Main Files: Project Structure
 
+```
 ├── README.md
-
 ├── requirements.txt *** The dependencies we need to install with "pip3 install -r requirements.txt"
-
-├── app
-
+├── ap
 │   ├── run.py *** See the results via this app
-
 │   ├── templates
-
 ├── data
-
 │   ├── disaster_categories.csv
-
 │   ├── disaster_messages.csv
-
 │   ├── DisasterResponse.db
-
 │   ├── process_data.py *** ETL pipeline
-
 └── models
-
     └── train_classifier.py *** Machine-learning model pipline
+```
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
