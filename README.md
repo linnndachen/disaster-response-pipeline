@@ -1,10 +1,15 @@
 # Disaster Response Pipeline Project
 
-[1. Project Summary](#1)
+1. Project Summary
+
 2. Main Files
+
 4. Results
+
 5. Licensing, Authors, and Acknowledgements
+
 6. Tech Stack
+
 7. Instructions
 
 ### Main Files: Project Structure
