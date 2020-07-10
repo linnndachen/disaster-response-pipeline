@@ -1,16 +1,11 @@
 # Disaster Response Pipeline Project
 
-1. Project Summary
+### Project Summary
 
-2. Main Files
+This project is part of Data Science Nanodegree Program by Udacity in collaboration with Figure Eight. The dataset containing real messages that were sent during disaster events. The goal is to create a NLP pipeline to categorize these messages so that they can be sent to an appropriate disaster relief agency.
 
-4. Results
+The outcome of the project includes a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. 
 
-5. Licensing, Authors, and Acknowledgements
-
-6. Tech Stack
-
-7. Instructions
 
 ### Main Files: Project Structure
 
@@ -29,6 +24,16 @@
     └── train_classifier.py *** Machine-learning model pipline
 ```
 
+### Results:
+
+### Tech Stack:
+Tech stack will include:
+
+- **SQLAlchemy ORM** to be ORM library of choice
+- **Sqlite 3** as database of choice
+- **Python3** and **Flask** as our server language and server framework
+- **HTML, CSS,** and **Javascript** with Bootstrap 3 for our website's frontend
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
@@ -42,6 +47,7 @@
 
 3. Go to http://0.0.0.0:3001/
 
-### Acknowledgements
-Udacity for providing such a complete Data Science Nanodegree Program
-Figure Eight for providing messages dataset to train my model
+### Licensing, Authors, and Acknowledgements
+[Udacity](https://www.udacity.com/) for providing such a complete Data Science Nanodegree Program.
+
+[Figure  Eight](https://appen.com/) for providing messages dataset to train my model.
