@@ -18,14 +18,19 @@ The outcome of the project includes a web app where an emergency worker can inpu
 ├── data
 │   ├── disaster_categories.csv
 │   ├── disaster_messages.csv
-│   ├── DisasterResponse.db
 │   ├── process_data.py *** ETL pipeline
 └── models
     └── train_classifier.py *** Machine-learning model pipline
 ```
 
 ### Results:
+Here is what the page looks like. The front page of the web app shows 2 visualization hightlight from the project.
 
+![](disaster-response-project1.png)
+
+You can type messages in the box on top and click "Classify Messages", the web app will return results of its classification.
+
+![](disaster-response-project2.png)
 
 ### Tech Stack:
 Tech stack will include:
