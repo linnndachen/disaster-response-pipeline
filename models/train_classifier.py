@@ -74,7 +74,7 @@ def build_model():
         ('tfidf', TfidfTransformer()),
         ('clf', MultiOutputClassifier(RandomForestClassifier()))
                     ])
-
+    #training taking too long so I commented out:
     # parameters = {'clf__estimator__max_depth':[None, 20, 40], 
     # #'clf__estimator__min_samples_split': [2, 4]
     #              }
