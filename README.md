@@ -26,6 +26,7 @@ The outcome of the project includes a web app where an emergency worker can inpu
 
 ### Results:
 
+
 ### Tech Stack:
 Tech stack will include:
 
@@ -35,19 +36,24 @@ Tech stack will include:
 - **HTML, CSS,** and **Javascript** with Bootstrap 3 for our website's frontend
 
 ### Instructions:
-1. Run the following commands in the project's root directory to set up your database and model.
+1. Download this repository as a ZIP file by clicking the top right green button.
+
+2. Upzip the file and run `pip3 install -r requirements.txt` to install the dependencies.
+
+3. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
     - To run ML pipeline that trains classifier and saves
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
-2. Run the following command in the app's directory to run your web app.
+4. Run the following command in the app's directory to run your web app.
     `python run.py`
 
-3. Go to http://0.0.0.0:3001/
+5. Go to http://0.0.0.0:3001/
 
 ### Licensing, Authors, and Acknowledgements
+
 [Udacity](https://www.udacity.com/) for providing such a complete Data Science Nanodegree Program.
 
 [Figure  Eight](https://appen.com/) for providing messages dataset to train my model.
