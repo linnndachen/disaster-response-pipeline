@@ -34,7 +34,6 @@ from sklearn.model_selection import GridSearchCV
 
 def load_data(database_filepath):
     engine = create_engine('sqlite:///' + database_filepath)
-    #table_name = os.path.basename(database_filepath).replace(".db","").lower()
     df = pd.read_sql_table('DisasterResponse', engine)
     X = df['message']
     Y = df.iloc[:, 5:]
@@ -69,6 +68,10 @@ def tokenize(text):
 
 
 def build_model():
+    """
+    Output:
+        A trained Random Forest model with multiple labels
+    """
     model = Pipeline([
         ('vect', CountVectorizer(tokenizer=tokenize)),
         ('tfidf', TfidfTransformer()),
@@ -88,9 +91,14 @@ def build_model():
 def evaluate_model(model, X_test, Y_test, category_names):
     """
     Input:
-    Output:
-
-    Notes: Given the context of this dataset, it is important to look at the precison score. We don't want to miss a message that actually reports child-alone after a disaster. [/end]
+        model: Model to be evaluated
+        X_test: Test data (features)
+        Y_test: True lables for Test data
+        category_names: A list of labels for 36 categories
+    Output: 
+        - Classification Report for each label
+        - Accuracy Score for each label
+        - Precision Score for each label
     """
     Y_pred = model.predict(X_test)
 
